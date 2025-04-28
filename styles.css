@@ -2,7 +2,7 @@
 
 
 *{
-    margin: ;
+
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -147,3 +147,22 @@ main{
     margin-top: -15px;
 }
 
+.inicio img{
+    width: 350px;
+    margin: 5px;
+}
+
+.categorias{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   gap: 290px;
+}
+
+.categorias h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  font-size: 24px;
+  
+}

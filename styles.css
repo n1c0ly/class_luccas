@@ -240,8 +240,9 @@ main{
     padding-left: 15px;
 }
 
-.p{
+.produtos h1{
+    font-size: 28px;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    color: rgb(138, 138, 138);
+    font-weight: 700;
+    font-style: normal;
 }

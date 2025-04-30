@@ -157,6 +157,7 @@ main{
     align-items: center;
    justify-content: center;
    gap: 290px;
+   margin-bottom: 200px;
 }
 
 .categorias h3{
@@ -164,5 +165,83 @@ main{
     font-weight: 600;
     font-style: normal;
   font-size: 24px;
-  
+}
+
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 400px;
+    margin-bottom: 150px;
+}
+
+
+.coluna1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna1 img{
+    width: 250px;
+    margin: 10px;
+}
+
+.coluna2{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.coluna2 img{
+    margin: 10px;
+    width: 250px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin: 15px;
+    background-color: rgba(240, 240, 240, 1);
+}
+
+.card img{
+    width: 250px;
+}
+
+.card p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.card h1{
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.card h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: rgb(138, 138, 138);
 }

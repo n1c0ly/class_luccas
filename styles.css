@@ -240,9 +240,29 @@ main{
     padding-left: 15px;
 }
 
-.produtos h1{
+/* .produtos h1{
     font-size: 28px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+} */
+
+
+.produtos button{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 40px;
+padding-top: 50px;
+border: 1.5px solid rgba(184, 142, 47, 1);
+background-color: transparent;
+}
+
+.produtos button a{
+    padding-bottom: 50px;
+    color: rgba(184, 142, 47, 1) ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }

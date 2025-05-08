@@ -33,12 +33,7 @@ header{
     color: black;
 }
 
-/* .logo img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-} */
+
 
 .icons{
     display: flex;
@@ -52,7 +47,7 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -257,12 +252,99 @@ height: 40px;
 padding-top: 50px;
 border: 1.5px solid rgba(184, 142, 47, 1);
 background-color: transparent;
+cursor: pointer;
+transition: all ease 1s;
 }
 
 .produtos button a{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     color: rgba(184, 142, 47, 1) ;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
+    transition: 1s all ease;
+}
+
+.produtos button:hover{
+    background-color: rgba(184, 142, 47, 1);
+    color: white;
+    height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+& a {
+    color: white;
+}
+}
+
+.carrossel2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carrossel2 h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.carrossel2 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(93, 93, 93);
+}
+
+.carrossel2 button{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 40px;
+padding-top: 50px;
+border: 1.5px solid rgba(184, 142, 47, 1);
+background-color: transparent;
+cursor: pointer;
+transition: all ease 1s;
+}
+
+.carrossel2 button a{
+    margin-bottom: 50px;
+    color: rgba(184, 142, 47, 1) ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 1s all ease;
+}
+
+.carrossel2 button:hover{
+    width: 180px;
+    background-color: rgba(184, 142, 47, 1);
+    color: white;
+    transition: 1s;
+    height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & a {
+    color: white;
+}
+}
+
+.carrossel{
+    background-color: rgba(252, 248, 243, 1);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 700px;
+}
+
+.teste{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
 }

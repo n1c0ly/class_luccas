@@ -341,10 +341,9 @@ transition: all ease 1s;
     height: 700px;
 }
 
-.teste{
+.fotos{
+    padding-top: 50px;
     display: flex;
-    align-items: start;
     justify-content: center;
-    gap: 50px;
-    flex-direction: column;
+    align-items: center;
 }

@@ -2,11 +2,16 @@
 
 
 *{
-
+    margin-left: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 
+}
+
+body{
+  
+    width: 100%;
 }
 
 header{
@@ -74,10 +79,10 @@ main{
     margin-bottom: -40px;
     width: 100%;
     font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 16px;
-  letter-spacing: 3px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 3px;
     font-size: 16px;
 }
 
@@ -96,9 +101,9 @@ main{
     justify-content: start;
     width: 100%;
     font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
     width: 80%;
     margin-top: -20px;
 }
@@ -111,8 +116,8 @@ main{
     font-weight: 700;
     border: none;
     background-color: rgba(184, 142, 47, 1);
-   margin-left: -290px;
-   margin-top: 30px;
+    margin-left: -290px;
+    margin-top: 30px;
 }
 
 .caixa button a{
@@ -150,16 +155,16 @@ main{
 .categorias{
     display: flex;
     align-items: center;
-   justify-content: center;
-   gap: 290px;
-   margin-bottom: 200px;
+    justify-content: center;
+    gap: 290px;
+    margin-bottom: 200px;
 }
 
 .categorias h3{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .produtos{
@@ -235,25 +240,17 @@ main{
     padding-left: 15px;
 }
 
-/* .produtos h1{
-    font-size: 28px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-} */
-
-
 .produtos button{
     width: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
-height: 40px;
-padding-top: 50px;
-border: 1.5px solid rgba(184, 142, 47, 1);
-background-color: transparent;
-cursor: pointer;
-transition: all ease 1s;
+    height: 40px;
+    padding-top: 50px;
+    border: 1.5px solid rgba(184, 142, 47, 1);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all ease 1s;
 }
 
 .produtos button a{
@@ -269,10 +266,10 @@ transition: all ease 1s;
     background-color: rgba(184, 142, 47, 1);
     color: white;
     height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-& a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & a {
     color: white;
 }
 }
@@ -282,12 +279,14 @@ transition: all ease 1s;
     align-items: start;
     justify-content: center;
     flex-direction: column;
+   
 }
 
 .carrossel2 h1{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 35px;
+    width: 400px;
 }
 
 .carrossel2 p{
@@ -295,6 +294,8 @@ transition: all ease 1s;
     font-weight: 500;
     font-size: 16px;
     color: rgb(93, 93, 93);
+    width: 400px;
+    padding-bottom: 30px;
 }
 
 .carrossel2 button{
@@ -302,12 +303,12 @@ transition: all ease 1s;
     display: flex;
     align-items: center;
     justify-content: center;
-height: 40px;
-padding-top: 50px;
-border: 1.5px solid rgba(184, 142, 47, 1);
-background-color: transparent;
-cursor: pointer;
-transition: all ease 1s;
+    height: 40px;
+    padding-top: 50px;
+    border: 1.5px solid rgba(184, 142, 47, 1);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all ease 1s;
 }
 
 .carrossel2 button a{
@@ -325,10 +326,10 @@ transition: all ease 1s;
     color: white;
     transition: 1s;
     height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  & a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & a {
     color: white;
 }
 }
@@ -338,12 +339,49 @@ transition: all ease 1s;
     display: flex;
     align-items: center;
     justify-content:center;
-    height: 700px;
+    height: 100vh;
+    width: 100%;
 }
 
-.fotos{
-    padding-top: 50px;
+.share{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.share h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(93, 93, 93);
+}
+
+.share h2{
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0) ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.furniro{
+    display: flex;
+    align-items: start;
+   justify-content: center;
+   gap: 200px;
+
+}
+
+.furniro p{
+   padding-bottom: 30px;
 }

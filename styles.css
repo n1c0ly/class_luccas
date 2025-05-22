@@ -41,7 +41,12 @@ nav a{
     color: black;
 }
 
-
+/* .logo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+} */
 
 .icons{
     display: flex;
@@ -158,16 +163,16 @@ main{
 .categorias{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 290px;
-    margin-bottom: 200px;
+   justify-content: center;
+   gap: 290px;
+   margin-bottom: 200px;
 }
 
 .categorias h3{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .produtos{
@@ -344,7 +349,11 @@ main{
     justify-content:end;
     height: 100vh;
     width: 100%;
+
     gap:100px ;
+
+    padding-left: 5%;
+
 }
 
 .share{
@@ -375,16 +384,17 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 5%;
+    width: 100%;
 }
 
 .furniro{
     display: flex;
     align-items: start;
-   justify-content: center;
-   gap: 200px;
-
+   justify-content: space-evenly;
+   
 }
+
 
 .furniro a{
    padding-bottom: 30px;
@@ -401,3 +411,10 @@ footer{
     border: none;
     border-bottom: 1.5px solid black;
 }
+
+.furniro2{
+   width: 100%;
+   padding-bottom: 30px;
+}
+
+

@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
+* {
     margin-left: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
 }
 
-body{
-  
+body {
     width: 100%;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     width: 100%;
@@ -22,14 +20,14 @@ header{
     padding: 36px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
 }
 
-nav a{
+nav a {
     gap: 75px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -41,21 +39,16 @@ nav a{
     color: black;
 }
 
-/* .logo img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-} */
 
-.icons{
+
+.icons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 45px;
 }
 
-main{
+main {
     background-image: url('./imagens/main.svg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,7 +60,7 @@ main{
     padding-right: 58px;
 }
 
-.caixa{
+.caixa {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,10 +69,9 @@ main{
     width: 550px;
     height: 480px;
     padding-top: 10px;
-    
 }
 
-.caixa h1{
+.caixa h1 {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -94,7 +86,7 @@ main{
     font-size: 16px;
 }
 
-.caixa h2{
+.caixa h2 {
     font-family: "Poppins", sans-serif;
     color: rgba(184, 142, 47, 1);
     font-weight: 700;
@@ -103,7 +95,7 @@ main{
     font-size: 52px;
 }
 
-.caixa p{
+.caixa p {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -116,7 +108,7 @@ main{
     margin-top: -20px;
 }
 
-.caixa button{
+.caixa button {
     width: 150px;
     height: 50px;
     font-family: "Poppins", sans-serif;
@@ -128,12 +120,12 @@ main{
     margin-top: 30px;
 }
 
-.caixa button a{
+.caixa button a {
     color: white;
     font-family: "Poppins", sans-serif;
 }
 
-.inicio{
+.inicio {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,41 +133,41 @@ main{
     padding-top: 50px;
 }
 
-.inicio h1{
+.inicio h1 {
     font-size: 32px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.inicio p{
+.inicio p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-top: -15px;
 }
 
-.inicio img{
+.inicio img {
     width: 350px;
     margin: 5px;
 }
 
-.categorias{
+.categorias {
     display: flex;
     align-items: center;
-   justify-content: center;
-   gap: 290px;
-   margin-bottom: 200px;
+    justify-content: center;
+    gap: 290px;
+    margin-bottom: 200px;
 }
 
-.categorias h3{
+.categorias h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-  font-size: 24px;
+    font-size: 24px;
 }
 
-.produtos{
+.produtos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,35 +178,35 @@ main{
 }
 
 
-.coluna1{
+.coluna1 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.coluna1 img{
+.coluna1 img {
     width: 250px;
     margin: 10px;
 }
 
-.coluna2{
+.coluna2 {
     display: flex;
     align-items: start;
     justify-content: start;
 }
 
-.coluna2 img{
+.coluna2 img {
     margin: 10px;
     width: 250px;
 }
 
-.cards{
+.cards {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card{
+.card {
     display: flex;
     align-items: start;
     justify-content: start;
@@ -223,32 +215,32 @@ main{
     background-color: rgba(240, 240, 240, 1);
 }
 
-.card img{
+.card img {
     width: 250px;
 }
 
-.card p{
+.card p {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 14px;
     padding-left: 15px;
 }
 
-.card h1{
+.card h1 {
     font-size: 20px;
     padding-left: 15px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
 
-.card h2{
+.card h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
     padding-left: 15px;
 }
 
-.produtos button{
+.produtos button {
     width: 230px;
     display: flex;
     align-items: center;
@@ -261,43 +253,43 @@ main{
     transition: all ease 1s;
 }
 
-.produtos button a{
+.produtos button a {
     margin-bottom: 50px;
-    color: rgba(184, 142, 47, 1) ;
+    color: rgba(184, 142, 47, 1);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
     transition: 1s all ease;
 }
 
-.produtos button:hover{
+.produtos button:hover {
     background-color: rgba(184, 142, 47, 1);
     color: white;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+
     & a {
-    color: white;
-}
+        color: white;
+    }
 }
 
-.carrossel2{
+.carrossel2 {
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: column;
-   
 }
 
-.carrossel2 h1{
+.carrossel2 h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 35px;
     width: 400px;
 }
 
-.carrossel2 p{
+.carrossel2 p {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -306,7 +298,7 @@ main{
     padding-bottom: 30px;
 }
 
-.carrossel2 button{
+.carrossel2 button {
     width: 180px;
     display: flex;
     align-items: center;
@@ -319,16 +311,16 @@ main{
     transition: all ease 1s;
 }
 
-.carrossel2 button a{
+.carrossel2 button a {
     margin-bottom: 50px;
-    color: rgba(184, 142, 47, 1) ;
+    color: rgba(184, 142, 47, 1);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
     transition: 1s all ease;
 }
 
-.carrossel2 button:hover{
+.carrossel2 button:hover {
     width: 180px;
     background-color: rgba(184, 142, 47, 1);
     color: white;
@@ -337,26 +329,23 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+
     & a {
-    color: white;
-}
+        color: white;
+    }
 }
 
-.carrossel{
+.carrossel {
     background-color: rgba(252, 248, 243, 1);
     display: flex;
     align-items: center;
-    justify-content:end;
+    justify-content: end;
     height: 100vh;
     width: 100%;
-
-    gap:100px ;
-
-    padding-left: 5%;
-
+    gap: 100px;
 }
 
-.share{
+.share {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -364,57 +353,94 @@ main{
     padding-top: 50px;
 }
 
-.share h1{
+.share h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: rgb(93, 93, 93);
 }
 
-.share h2{
+.share h2 {
     margin-bottom: 50px;
-    color: rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 35px;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 5%;
+    padding-top: 80px;
+    gap: 20px;
     width: 100%;
 }
 
-.furniro{
+.furniro {
     display: flex;
     align-items: start;
-   justify-content: space-evenly;
-   
+    justify-content: center;
+    gap: 180px;
+  
 }
 
-
-.furniro a{
-   padding-bottom: 30px;
+.furniro a {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 50px;
 }
 
-.furniro button{
+.furniro button {
     background-color: transparent;
     border: none;
     border-bottom: 1.5px solid black;
 }
 
-.furniro input{
+/* .furniro input {
     background-color: transparent;
     border: none;
     border-bottom: 1.5px solid black;
 }
 
-.furniro2{
-   width: 100%;
-   padding-bottom: 30px;
+.furniro input::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+} */
+
+.furniro h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(195, 194, 194);
+    padding-bottom: 30px;
 }
 
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  
+}
+
+.newsletter input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-bottom: 1.5px solid black;    padding-right: 30px;
+}
+
+.newsletter input ::placeholder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+}
 

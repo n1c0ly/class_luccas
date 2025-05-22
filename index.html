@@ -8,15 +8,14 @@
 </head>
 <body>
     <header>
-        <div class="logo">
         <img src="/imagens/logo.svg" alt="">
-    </div>
-    <div class="nav">
-        <nav>Home</nav>
-        <nav>Shop</nav>
-        <nav>About</nav>
-        <nav>Contact</nav>
-    </div>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Shop</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </nav>
+   
         <div class="icons">
         <img src="/imagens/perfil.svg" alt="">
         <img src="/imagens/lupa.svg" alt="">
@@ -53,7 +52,8 @@
     </section>
 
     <section class="produtos">
-<h1>Our Products</h1>
+<h1 style="font-family: Poppins, sans-serif;font-weight: 700;
+    font-size: 35px;">Our Products</h1>
 <article class="cards">
     <div class="card">
 <img src="/imagens/image 1.svg" alt="">
@@ -128,7 +128,7 @@
 </article>
 
 <article>
- <div style="padding-right: 100px;">
+ <div style="display: flex; align-items: end; justify-content: end;">
     <img src="/imagens/images (2).svg" alt="">
  </div>
 </article>
@@ -151,7 +151,8 @@
 <div style="width: 100%; border: 1.5px solid rgb(222, 222, 222);"></div>
 <section class="furniro">
     <div>
-    <h1>
+    <h1 style="font-family: Poppins, sans-serif;font-weight: 700;
+    font-size: 25px;"">
         Furniro.
     </h1>
     <p>400 University Drive Suite 200 Coral Gables,
@@ -159,23 +160,24 @@
     <p>FL 33134 USA</p>
 </div>
 
-<div>
+<div style="display: flex; align-items: start; justify-content: center; flex-direction: column;">
     <h1>
         Links
     </h1>
-    <p>Home</p>
-    <p>Shop</p>
-    <p>About</p>
-    <p>Contact</p>
+   <a href="">Home</a>
+   <a href="">Shop</a>
+   <a href="">About</a>
+   <a href="">Contacts</a>
 </div>
 
-<div>
+<div  style="display: flex; align-items: start; justify-content: center; flex-direction: column;">
     <h1>
         Help
     </h1>
-    <p>Payment Options</p>
-    <p>Returns</p>
-    <p>Privacy Policies</p>
+   <a href="">Payment Options</a>
+   <a href="">Returns</a>
+   <a href="">Privacy Policies</a>
+ 
 </div>
 
 <div>
@@ -186,7 +188,7 @@
 
 </section>
 <div style="width: 90%; border: 1.5px solid rgb(222, 222, 222);"></div>
-<div>
+<div style="display: flex; align-items: start; justify-content: start;width: 100%; padding-left: 80px;">
     <p>2023 furino. All rights reverved</p>
 </div>
 </footer>
